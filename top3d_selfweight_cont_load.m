@@ -1,3 +1,7 @@
+%This code is developed from the code written by Liu et al ., 2015.
+%This code produces the 3D optimal topology as output for particular volume
+%fraction. Starting domain is rectangular. Loads are continuous loads in
+%top and bottom boundaries and self weight for each element. The mounting areas are considered solid
 %for fcc: x = 30, y = 9 , z = 18
 % function top3d_selfweight_cont_load(nelx,nely,nelz,volfrac,penal,rmin)
 % USER-DEFINED LOOP PARAMETERS
